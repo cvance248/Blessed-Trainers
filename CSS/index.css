@@ -1,0 +1,14 @@
+body {
+    background-color: aqua;
+}
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+p {
+    width: 40%;
+}
