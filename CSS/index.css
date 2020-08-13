@@ -1,25 +1,26 @@
 body {
     background-color: whitesmoke;
 }
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.nav-bar {
+    background: blueviolet;
+    height: 7vh;
+    font-size: 2em;
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100vw;
+    /*background: rgb(50,4,110);
+    background: linear-gradient(180deg, rgba(50,4,110,1) 0%, rgba(93,8,126,0.7819502801120448) 35%, rgba(23,205,227,1) 97%);*/
+}
 nav p {
     width: max-content;
     padding-left: 20%;
     text-transform: uppercase;
-    text-shadow: -4px 4px 5px #13CECC;
+    text-shadow: -4px 4px 5px #11706f;
     font-weight: 700;
-}
-.nav-bar {
-    background: blueviolet;
-    height: 2em;
-    font-size: 2em;
-    background-color: whitesmoke;
-    /*background: rgb(50,4,110);
-    background: linear-gradient(180deg, rgba(50,4,110,1) 0%, rgba(93,8,126,0.7819502801120448) 35%, rgba(23,205,227,1) 97%);*/
-}
-nav {
-    padding-top: 2%;
-    display: grid;
-    grid-template-columns: auto auto;
 }
 nav ul {
     display: grid;
@@ -33,8 +34,11 @@ li a {
 p {
     width: 40%;
 }
-#About {
-    background: url('../IMG/athlete.jpg') no-repeat bottom center/cover;
+.content-area {
+    padding-top: 7vh;
+    width: 100vw;
+    background: url(../IMG/athlete.jpg) no-repeat;
+    background-size: auto;
 }
 #About p{
     text-transform: lowercase;
