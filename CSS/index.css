@@ -163,4 +163,16 @@ p {
         padding-left: 1rem;
         font-size: 1.3em;
     }
+    .img-container-3 {
+        background: url(../IMG/contact.jpg) no-repeat center/cover;
+        height: 20vh;
+        width: 100vw;
+    }
+    .img-container-3 h1 {
+        font-size: 3em;
+        color: whitesmoke;
+    }
+    .img-container-3 ol li {
+        color: whitesmoke;
+    }
 }
