@@ -27,9 +27,12 @@ nav ul {
     grid-template-columns: auto auto auto;
     list-style: none;
 }
-li a {
+nav li a {
     text-decoration: none;
     color: black;
+}
+nav li a:hover {
+    color: skyblue;
 }
 p {
     width: 40%;
@@ -37,37 +40,69 @@ p {
 .content-area {
     padding-top: 7vh;
     width: 100vw;
+    margin: auto;
 }
 .img-container-1 {
     background: url(../IMG/exercise.jpg) no-repeat center/cover;
     height: 100vh;
     width: 100vw;
+    display: flex;
 }
 #About {
     background: rgba(0, 0, 0, .4);
-    margin: auto 1em;
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+    top: 10%;
     padding: 1em;
-    width: 50%;
+    width: 75%;
     border-radius: 5px;
 }
 #About h1 {
     color: whitesmoke;
-    font-size: x-large;
+    font-size: 3em;
+    justify-content: center;
+    align-content: center;
+
 }
 #About p {
     width: 100%;
     color: whitesmoke;
     font-size: 1.3em;
+    justify-content: center;
+    align-content: center;
 }
 .img-container-2 {
     background: url(../IMG/product.jpg) no-repeat center/cover;
     height: 100vh;
     width: 100vw;
+    display: flex;
+}
+#Products {
+    background: rgba(0, 0, 0, .4);
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    border-radius: 5px;
+    margin: 3em auto;
+    color: whitesmoke;
+}
+#Products ul {
+    padding: 0 2em;
+    list-style: none;
+}
+.img-container-2 #Products ul li {
+    list-style: bullet;
+    padding-left: 1rem;
 }
 .img-container-3 {
     background: url(../IMG/contact.jpg) no-repeat center/cover;
     height: 50vh;
     width: 100vw;
+}
+.img-container-3 h1 {
+    font-size: 3em;
+    color: whitesmoke;
 }
 .img-container-3 ol li {
     color: whitesmoke;
