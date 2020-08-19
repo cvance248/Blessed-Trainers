@@ -118,24 +118,49 @@ p {
 /* Styling For Mobile Devices */
 
 @media (max-width: 700px) {
-.nav-bar p {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-bar p {
     font-size: .7em;
-    margin: 0 11%;
-}
+    padding-left: 2em;
+    }
+    .nav-bar ul {
+        font-size: .6em;
+        padding-left: 2em;
+    }
 
     #About h1 {
+        font-weight: 600;
         color: whitesmoke;
-        font-size: 3em;
+        font-size: 1.8em;
         justify-content: center;
         align-content: center;
     
     }
     #About p {
+        font-weight: 100;
         width: 100%;
         color: whitesmoke;
         font-size: 1.1em;
         justify-content: center;
         align-content: center;
     }
-
+    #Products h1 {
+        width: 100%;
+        font-size: 2em;
+        margin: .5em 27%;
+    }
+    #Products .product-list {
+        display: flex;
+        flex-direction: column;
+        padding: 0 2em;
+        list-style: none;
+    }
+    .img-container-2 #Products ul li {
+        list-style: none;
+        padding-left: 1rem;
+        font-size: 1.3em;
+    }
 }
