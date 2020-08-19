@@ -114,3 +114,28 @@ p {
 .img-container-3 ol li {
     color: whitesmoke;
 }
+
+/* Styling For Mobile Devices */
+
+@media (max-width: 700px) {
+.nav-bar p {
+    font-size: .7em;
+    margin: 0 11%;
+}
+
+    #About h1 {
+        color: whitesmoke;
+        font-size: 3em;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    #About p {
+        width: 100%;
+        color: whitesmoke;
+        font-size: 1.1em;
+        justify-content: center;
+        align-content: center;
+    }
+
+}
