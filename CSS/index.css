@@ -4,6 +4,7 @@ body {
 nav {
     display: grid;
     grid-template-columns: auto auto;
+    z-index: 1;
 }
 .nav-bar {
     background: blueviolet;
@@ -34,9 +35,6 @@ nav li a {
 nav li a:hover {
     color: skyblue;
 }
-p {
-    width: 40%;
-}
 .content-area {
     padding-top: 7vh;
     width: 100vw;
@@ -50,27 +48,31 @@ p {
 }
 #About {
     background: rgba(0, 0, 0, .6);
-    display: flex;
-    flex-direction: column;
     margin: 2em auto;
     top: 10%;
     padding: 1em;
-    width: 75%;
+    width: 90%;
     border-radius: 5px;
+    display: flex;
 }
-#About h1 {
-    color: whitesmoke;
-    font-size: 3em;
-    justify-content: center;
-    align-content: center;
-
+.about-content {
 }
-#About p {
-    width: 100%;
+.about-content h1 {
     color: whitesmoke;
     font-size: 2em;
-    justify-content: center;
-    align-content: center;
+}
+.about-content p {
+    color: whitesmoke;
+    font-size: 1.3em;
+    width: 80%;
+}
+.prof-container-1 img {
+    height: 85%;
+    width: 95%;
+    border-radius: 50%;
+    opacity: .9;
+    margin-right: 2em;
+    top: 50%
 }
 .img-container-2 {
     background: url(../IMG/product.jpg) no-repeat center/cover;
@@ -101,10 +103,15 @@ p {
 .img-container-2 #Products ul li {
     list-style: none;
     padding-left: 1rem;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 .lead {
     font-weight: bolder;
+}
+li img {
+    height: 5em;
+    width: 5em;
+    display: flex;
 }
 .img-container-3 {
     background: url(../IMG/contact.jpg) no-repeat center/cover;
