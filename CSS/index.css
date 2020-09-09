@@ -48,11 +48,11 @@ nav li a:hover {
 }
 #About {
     background: rgba(0, 0, 0, .6);
-    margin: 2em auto;
-    top: 10%;
+    margin: 2em auto 0 auto;
+    top: 5%;
     padding: 1em;
     width: 90%;
-    height: 95%;
+    height: 85vh;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -120,7 +120,7 @@ nav li a:hover {
     display: flex;
 }
 #Products-b {
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .1);
     height: 100%;
     width: 100%;
     display: flex;
@@ -211,6 +211,7 @@ nav li a:hover {
     text-align: center;
 }
 #contact-me ul li {
+    font-size: 24px;
     align-content: center;
     color: whitesmoke;
     list-style: none;
@@ -258,7 +259,18 @@ nav li a:hover {
         width: 100vw;
         display: flex;
     }
-
+    #About {
+        background: rgba(0, 0, 0, .6);
+        margin: 2em auto 0 auto;
+        top: 5%;
+        padding: 1em;
+        width: 90%;
+        height: 68vh;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
     #About h1 {
         font-weight: 600;
         color: whitesmoke;
@@ -302,9 +314,9 @@ nav li a:hover {
     }
     #Products-a ul li {
         color: whitesmoke;
-        margin: 5%;
-        font-size: larger;
-        font-weight: 700;
+        margin: 0 5%;
+        font-size: 16px;
+        font-weight: 300;
     }
     #Products-b {
         background: rgba(0, 0, 0, .65);
@@ -350,8 +362,8 @@ nav li a:hover {
     
     }
     #Products-c img {
-        width: 90px;
-        height: 115px;
+        width: 85px;
+        height: 110px;
         margin: 10% 1em 0 1em;
         border-radius: 8px;
     }
